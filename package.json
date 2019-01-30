@@ -1,0 +1,36 @@
+{
+  "author": "hsanjuan",
+  "bugs": {
+    "url": "https://github.com/prometheus/common"
+  },
+  "gx": {
+    "dvcsimport": "github.com/prometheus/common"
+  },
+  "gxDependencies": [
+    {
+      "author": "lanzafame",
+      "hash": "QmZCsCiFgoyxaG5tqCnfahNBQd6uhoqYqH64aNxF5vqvQp",
+      "name": "client_model",
+      "version": "2019.1.30"
+    },
+    {
+      "author": "hsanjuan",
+      "hash": "QmcUuDu8FfWiUgZ8q3Rvvr4mwFTX5t1TKmVoWsB3FVHmhQ",
+      "name": "protobuf",
+      "version": "3.6.1"
+    },
+    {
+      "author": "hsanjuan",
+      "hash": "QmdgSqyESLM8Vffg8FMCL8Hk3hyR2zrtctMGZngQDGXjvU",
+      "name": "golang_protobuf_extensions",
+      "version": "1.0.1"
+    }
+  ],
+  "gxVersion": "0.12.1",
+  "language": "go",
+  "license": "Apache-2.0",
+  "name": "common",
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "0.2.0"
+}
+
